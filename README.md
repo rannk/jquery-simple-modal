@@ -1,4 +1,4 @@
-#Installation
+# nstallation
 
 You can install with npm:
 
@@ -8,8 +8,8 @@ or
 
 download js file from [github](https://github.com/rannk/jquery-simple-modal)
 
-#Opening
-####Method 1: Automatically attaching to links
+# Opening
+#### Method 1: Automatically attaching to links
 
 The simplest approach is to add `rel="modal"` to your links and use the `href` attribute to specify what to open in the modal.
 
