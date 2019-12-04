@@ -1,6 +1,6 @@
 {
   "name": "@rannk/jquery-simple-modal",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "",
   "main": "modal.js",
   "devDependencies": {
@@ -11,5 +11,9 @@
     "modal"
   ],
   "author": "Rannk Deng",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rannk/jquery-simple-modal.git"
+  }
 }

@@ -39,3 +39,24 @@ $.modal = {
   clickClose: true,       // Allows the user to close the modal by clicking the overlay
 };
 ```
+
+# Events
+
+we support these events during Modal cycle (open/close).
+
+```js
+$.modal.beforeOpen       // Fires just before the modal opens.
+$.modal.open             // Fires after the modal has finished opening.
+$.modal.beforeClose      // Fires when the modal has been requested to close.
+$.modal.afterClose       // Fires after the modal has fully closed
+```
+
+So, you can do this
+
+```js
+// create event function before modal open
+$.modal.beforeOpen = function(modal) {
+    ...
+}
+
+```
