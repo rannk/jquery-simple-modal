@@ -1,4 +1,4 @@
-# nstallation
+# installation
 
 You can install with npm:
 
@@ -34,7 +34,7 @@ $('#myModal').modal("show");
 These are the supported options and their default values:
 
 ```js
-$.modal.defaults = {
+$.modal = {
   panel: window,          // Set in which layer to display the modal
   clickClose: true,       // Allows the user to close the modal by clicking the overlay
 };
